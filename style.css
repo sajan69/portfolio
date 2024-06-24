@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #header {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  #footer {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
+  
+  h2 {
+    color: #0072ff;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
